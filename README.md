@@ -10,7 +10,7 @@ This repository contains the implementation of the My Application API, which pro
   GET /api/books
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
+| Parameter   | Type     | Description                           |
 | :---------- | :--------- | :---------------------------------- |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
 
@@ -20,7 +20,7 @@ This repository contains the implementation of the My Application API, which pro
   POST /api/books
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
+| Parameter   | Type       | Description                           |
 | :---------- | :--------- | :---------------------------------- |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
 | `name` | `int` | **Required**. Book name |
@@ -33,7 +33,7 @@ This repository contains the implementation of the My Application API, which pro
   GET /api/books/{id}
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
 | `id`      | `string` | **Required**. Book ID |
@@ -44,7 +44,7 @@ This repository contains the implementation of the My Application API, which pro
   PUT /api/books/{id}
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
 | `id`      | `string` | **Required**. Book ID |
@@ -55,7 +55,7 @@ This repository contains the implementation of the My Application API, which pro
   DELETE /api/books/{id}
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
 | `id`      | `string` | **Required**. Book ID |
@@ -69,7 +69,7 @@ This repository contains the implementation of the My Application API, which pro
   POST /api/login
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `email`      | `string` | **Required**. User email |
 | `password`      | `string` | **Required**. User password |
@@ -80,6 +80,6 @@ This repository contains the implementation of the My Application API, which pro
   POST /api/logout
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `jwt-token` | `string` | **Required**. JWT TOKEN |
