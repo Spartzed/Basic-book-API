@@ -1,4 +1,4 @@
-## Documentação da API
+## API documentation
 
 This repository contains the implementation of the My Application API, which provides endpoints to interact with book-related resources in a virtual bookstore.
 
